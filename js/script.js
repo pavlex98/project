@@ -9,3 +9,13 @@
 
 console.log(++incr);
 console.log(--decr);
+
+console/localStorage(5%2);
+
+console.log(2 + 2 * 2 == 8);
+
+const isCheck = true,
+
+ isClose = true;
+
+ console.log(isCheck && isClose);
