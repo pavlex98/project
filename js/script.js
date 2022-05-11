@@ -10,12 +10,15 @@ const personalMovieDB = {
     private: false
 };
 
-const ferstQ = prompt("Один из последних просмотренных фильмов?", "");
-const firstOcen = prompt("На сколько оцените его?", "");
-const secondQ = prompt("Один из последних просмотренных фильмов?", "");
-const secondOcen = prompt("На сколько оцените его?", "");
+for (let i = 0; i < 2; i++){
+    const ferstQ = prompt("Один из последних просмотренных фильмов?", ""),
+          firstOcen = prompt("На сколько оцените его?", "");
+
+          if (ferstQ != null && firstOcen != null && a != "" && )
+
+
 
 personalMovieDB.movies[ferstQ] = firstOcen;
-personalMovieDB.movies[secondQ] = secondOcen;
+}
  
 console.log(personalMovieDB);
